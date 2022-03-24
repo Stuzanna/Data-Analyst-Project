@@ -7,19 +7,21 @@ RENAME to `covid_deaths`;
 
 SHOW FIELDS FROM covid_deaths; -- shows the table to check datatype
 
--- Empty vs Null, loads of values were EMPTY rather than NULL
+-- For converting EMPTY to NULL
 UPDATE covid_deaths 
 SET continent = NULLIF(continent, '');
-
--- example
+-- other example
 UPDATE table 
 SET col1 = NULLIF(col1, '');
 
--- Fills in the empty values with 0, as can't convert NULL to INT
+-- For filling EMPTY to 0
 update covid_deaths
 set `total_deaths` = '0' where trim(coalesce(population, '')) = '';
-
 
 -- converts the column to new datatype
 -- change the MODIFY statement to what you need
 ALTER TABLE covid_deaths MODIFY `total_deaths` INT;
+
+-- Converting from text to date
+UPDATE covid_deaths SET `date` = STR_TO_DATE( `date`,'%d/%m/%Y' ); -- text to string in date ready format
+ALTER TABLE covid_deaths MODIFY `date` DATE; -- change datatype to date

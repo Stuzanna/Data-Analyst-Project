@@ -33,7 +33,8 @@ ALTER TABLE covid_deaths MODIFY `total_cases` INT;
 ALTER TABLE covid_deaths MODIFY new_cases INT;
 ALTER TABLE covid_deaths MODIFY population BIGINT;
 
-USE covid_deaths SET `date` = STR_TO_DATE(`date`,'%d/%m/%Y'); -- change text to expected Date format YYYY-MM-DD
-ALTER TABLE covid_deaths MODIFY `date` DATE; -- need to convert to YYYY-MM-DD
 
-SHOW COLUMNS FROM covid_deaths;
+UPDATE covid_deaths SET `date` = STR_TO_DATE( `date`,'%d/%m/%Y' ); -- text to string in date ready format
+ALTER TABLE covid_deaths MODIFY `date` DATE; -- change datatype to date
+
+SHOW COLUMNS FROM covid_deaths; -- review datatypes
