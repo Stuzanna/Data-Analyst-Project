@@ -16,7 +16,7 @@ SET col1 = NULLIF(col1, '');
 
 -- For filling EMPTY to 0
 update covid_deaths
-set `total_deaths` = '0' where trim(coalesce(population, '')) = '';
+set `population` = '0' where trim(coalesce(population, '')) = '';
 
 -- converts the column to new datatype
 -- change the MODIFY statement to what you need
