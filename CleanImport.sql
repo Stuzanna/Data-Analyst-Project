@@ -1,4 +1,4 @@
-DROP TABLE covid_deaths;
+DROP TABLE if exists covid_deaths;
 
 ALTER TABLE `covid-deaths3` -- rename table
 RENAME to `covid_deaths`;
