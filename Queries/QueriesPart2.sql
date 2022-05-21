@@ -34,10 +34,13 @@ SELECT `location`, SUM(new_deaths) as TotalDeathCount
 FROM PortfolioProject.covid_deaths
 -- Where location like '%kingdom%'
 WHERE continent is NULL
-AND `location` not IN ('Wolrd', 'European Union', 'International')
+AND `location` not IN ('World', 'European Union', 'International', 'Upper middle income',
+'High income', 'Lower middle income', 'Low income')
+-- also not interested in the income dataset
 GROUP BY `location`
 ORDER BY TotalDeathCount DESC;
--- The above copied to Excel: Tableau-Table2
+-- The above original query was copied to Excel: Tableau-Table2
+-- This query is now in Tableau-Table2.1
 
 
 -- Part 3
