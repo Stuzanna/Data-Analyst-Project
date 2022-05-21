@@ -1,4 +1,4 @@
-# Data-Analyst-Portfolio-Project
+# Data-Analyst-Project
 
 My project was to develop data exploration and visualisation skills by working through a guided project on YouTube by Alex the Analyst: https://youtu.be/qfyynHBFOsM.  
 As well as visualisation in part2 video: https://youtu.be/QILNlRvJlfQ.  
