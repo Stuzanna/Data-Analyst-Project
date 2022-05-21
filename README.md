@@ -28,6 +28,12 @@ This was proving troubling but after investigation determined the issue was Exce
 
 This was the most time consuming part of the project. Data was missing for continent, the import had created several EMPTY values which I discovered was different to NULL and then had to replace. The date format was wrong and in text so converted this to proper format and from DD/MM/YYYY to YYY-MM-DD.
 
+## Repo Structure
+
+*Clean* files for starting afresh with the data after getting things wrong, will generate tables.  
+Query1 is for the data exploration, QueriesPart2 is for getting the data for the visualisation.  
+Temp files were for holding temporary queries to help troubleshoot and explore other items.
+
 
 # Conclusion
 
