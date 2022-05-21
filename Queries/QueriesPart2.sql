@@ -58,6 +58,9 @@ ORDER BY PercentagePopulationInfected desc;
 SELECT `location`, population, `date`, MAX(total_cases) as HighestInfectionCount, MAX((total_cases/population))*100 as PercentPopulationInfected
 FROM PortfolioProject.covid_deaths
 -- Where location like '%kingdom%'
+WHERE `location` not IN ('World', 'European Union', 'International', 'Upper middle income',
+'High income', 'Lower middle income', 'Low income', 'Europe')
 GROUP BY `location`, population, `date`
 ORDER BY PercentPopulationInfected DESC
--- The above copied to Excel: Tableau-Table4
+-- The above original query was copied to Excel: Tableau-Table4
+-- This query is now in Tableau-Table4.1
