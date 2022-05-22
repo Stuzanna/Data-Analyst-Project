@@ -1,7 +1,10 @@
 # Data-Analyst-Project
 
-My project was to develop data exploration and visualisation skills by working through a guided project on YouTube by Alex the Analyst: https://youtu.be/qfyynHBFOsM.  
-As well as visualisation in part2 video: https://youtu.be/QILNlRvJlfQ.  
+
+
+My project was to develop data exploration and visualisation skills by working through a guided project on YouTube, my approach is expanded upon below.  
+![alt text](https://github.com/Stuzanna/Data-Analyst-Project/blob/main/Images/TableauDashboard.png)
+Source videos by Alex the Analyst: https://youtu.be/qfyynHBFOsM , as well as visualisation in part2 video: https://youtu.be/QILNlRvJlfQ.  
 This repo will be useful for anyone attempting the video using MySQL rather than SQL Server or who wants to see some of the problems that are perhaps glanced over in the video.
 My attempt wasn't simply following a tutorial, copying & pasting queries and clicking the correct buttons. I found there was significantly more data cleaning and wrangling required.
 
