@@ -6,6 +6,7 @@ Moving data back to Excel for Tableau Public.
 
 */
 
+-- Adjust names of the tables to match your table from covid_deaths
 
 -- Part 1
 

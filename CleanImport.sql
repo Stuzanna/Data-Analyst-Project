@@ -1,7 +1,7 @@
 DROP TABLE if exists covid_deaths;
 
-ALTER TABLE `covid-deaths3` -- rename table
-RENAME to `covid_deaths`;
+ALTER TABLE `covid-deaths3` -- rename table, adjust values to existing and new
+RENAME to `covid_deaths`; -- do a Replace on coivd-deaths for your new table name
 
 -- Updating the column datatype, repeat per table and per column
 
@@ -10,6 +10,8 @@ SHOW FIELDS FROM covid_deaths; -- shows the table to check datatype
 
 -- Empty to NULL for columns of interest
 -- Empty vs Null, loads of values were EMPTY rather than NULL
+
+
 UPDATE covid_deaths 
 SET continent = NULLIF(continent, '');
 
