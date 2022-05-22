@@ -34,6 +34,10 @@ This was the most time consuming part of the project. Data was missing for conti
 Query1 is for the data exploration, QueriesPart2 is for getting the data for the visualisation.  
 Temp files were for holding temporary queries to help troubleshoot and explore other items.
 
+## Running with new data
+
+If you wish to run a version of this yourself you can, download the data from the *our world in data* link above, bring the data into your SQL database, run the cleanup script, use queries in QueriesPart2 (make minor adjustments based on your data, using comments as a guide). You'll now have tables that can be used in Tableau for the visualisation.
+
 
 # Conclusion
 
