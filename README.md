@@ -1,7 +1,8 @@
 # Data-Analyst-Project
 
 
-https://public.tableau.com/app/profile/stuart1460/viz/CovidDataProject_16531289748970/Dashboard1?publish=yes 
+https://public.tableau.com/app/profile/stuart1460/viz/CovidDataProject_16531289748970/Dashboard1?publish=yes  
+
 My project was to develop data exploration and visualisation skills by working through a guided project on YouTube, my approach is expanded upon below.  
 ![alt text](https://github.com/Stuzanna/Data-Analyst-Project/blob/main/Images/TableauDashboard.png)
 Source videos by Alex the Analyst: https://youtu.be/qfyynHBFOsM , as well as visualisation in part2 video: https://youtu.be/QILNlRvJlfQ.  
