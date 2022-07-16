@@ -1,7 +1,7 @@
 # Data-Analyst-Project
 
 
-https://public.tableau.com/app/profile/stuart1460/viz/CovidDataProject_16531289748970/Dashboard1?publish=yes  
+https://public.tableau.com/views/CovidDataProject_16531289748970/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link  
 
 My project was to develop data exploration and visualisation skills by working through a guided project on YouTube, my approach is expanded upon below.  
 ![alt text](https://github.com/Stuzanna/Data-Analyst-Project/blob/main/Images/TableauDashboard.png)
@@ -20,7 +20,7 @@ A summary of the approach was to;
 4. Write a script in SQL to import and clean the data
 5. Explore the data using queries
 6. Visualising the data; exporting from SQL to Excel to be used in Tableau Public
-7. Work within Tableau Public to create a dashboard: https://public.tableau.com/app/profile/stuart1460/viz/CovidDataProject_16531289748970/Dashboard1?publish=yes 
+7. Work within Tableau Public to create a dashboard: https://public.tableau.com/views/CovidDataProject_16531289748970/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link 
 
 The below will detail some of the stages and share some of the notes I took as part of the project.
 
@@ -48,4 +48,4 @@ If you wish to run a version of this yourself you can, download the data from th
 The project was an enjoyable push, ended up spending more time on learning to do database admin installing MySQL that intended. Gained valuable experience cleaning the data up and finding best ways to write and run SQL queries. Tableau was interesting to use and there is probably a lot more to get into with this and data visualisation in general.
 
 Start, dataset: https://ourworldindata.org/covid-deaths  
-End, Tableau dashboard: https://public.tableau.com/app/profile/stuart1460/viz/CovidDataProject_16531289748970/Dashboard1?publish=yes 
+End, Tableau dashboard: https://public.tableau.com/views/CovidDataProject_16531289748970/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link   
