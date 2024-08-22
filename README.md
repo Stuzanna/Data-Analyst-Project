@@ -3,14 +3,14 @@
 
 https://public.tableau.com/views/CovidDataProject_16531289748970/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link  
 
-My project was to develop data exploration and visualisation skills by working through a guided project on YouTube, my approach is expanded upon below.  
+My project was to develop data exploration and visualisation skills by working through a guided project on YouTube. However, my attempt wasn't simply following a tutorial, copying & pasting queries and clicking the correct buttons. No, I found there was significantly more data cleaning and wrangling required, my approach is expanded upon below.  
+
+The project allowed me to put into practice, data cleaning, data wrangling, creating queries, and data visualisation skills which went on to help me with a lot of the SQL work I have done since this initial project.  
+
 ![alt text](https://github.com/Stuzanna/Data-Analyst-Project/blob/main/Images/TableauDashboard.png)
-Source videos by Alex the Analyst: https://youtu.be/qfyynHBFOsM , as well as visualisation in part2 video: https://youtu.be/QILNlRvJlfQ.  
+Source videos by Alex the Analyst: https://youtu.be/qfyynHBFOsM , as well as the visualisation in part2 video: https://youtu.be/QILNlRvJlfQ.  
 This repo will be useful for anyone attempting the video using MySQL rather than SQL Server or who wants to see some of the problems that are perhaps glanced over in the video.
-My attempt wasn't simply following a tutorial, copying & pasting queries and clicking the correct buttons. I found there was significantly more data cleaning and wrangling required.
 
-
-The project allowed me to put into practice, data cleaning, data wrangling, creating queries, and data visualisation skills.  
 
 ## Approach
 
@@ -26,26 +26,26 @@ The below will detail some of the stages and share some of the notes I took as p
 
 ### Data Import
 
-This was proving troubling but after investigation determined the issue was Excel would save .csv as ASCII when my SQL analysis tool was expecting UTF-8. Saving the csv in Excel in UTF-8 remedied problems.
+This proved troubling, after some investigation the issue was Excel would save .csv as ASCII when my SQL analysis tool was expecting UTF-8. Saving the csv in Excel in UTF-8 solved the issue.
 
 ### Data Cleaning
 
-This was the most time consuming part of the project. Data was missing for continent, the import had created several EMPTY values which I discovered was different to NULL and then had to replace. The date format was wrong and in text so converted this to proper format and from DD/MM/YYYY to YYY-MM-DD.
+This was the most time consuming part of the project and not meant to be part of the project, a great learning opportunity. There was missing columns, missing values and wrongly formatted dates, all typical cleaning problems. Some of the missing values were from the import creating `EMPTY` values, which I discovered is different to `NULL` values! The date format was wrong type (text) and wrong format requiring date conversion from DD/MM/YYYY to YYY-MM-DD.
 
 ## Repo Structure
 
-*Clean* files for starting afresh with the data after getting things wrong, will generate tables.  
-Query1 is for the data exploration, QueriesPart2 is for getting the data for the visualisation.  
-Temp files were for holding temporary queries to help troubleshoot and explore other items.
+`Clean` files for starting afresh with the data for when things go wrong, these generate tables.  
+`Query1.sql` is for the data exploration, `QueriesPart2` is for fetching and preparing the data for the visualisation.  
+`Temp` files were for working queries to help troubleshoot and explore other items.
 
-## Running with new data
+## Try it yourself
 
-If you wish to run a version of this yourself you can, download the data from the *our world in data* link above, bring the data into your SQL database, run the cleanup script, use queries in QueriesPart2 (make minor adjustments based on your data, using comments as a guide). You'll now have tables that can be used in Tableau for the visualisation.
+If you wish to run a version of this yourself you can, download the data from the [our world in data(https://ourworldindata.org/covid-deaths), bring the data into your SQL database, run the cleanup script, use queries in QueriesPart2 (make minor adjustments based on your data, using comments as a guide). You'll now have tables prepared for visualisation in Tableau.
 
 
 # Conclusion
 
-The project was an enjoyable push, ended up spending more time on learning to do database admin installing MySQL that intended. Gained valuable experience cleaning the data up and finding best ways to write and run SQL queries. Tableau was interesting to use and there is probably a lot more to get into with this and data visualisation in general.
+The project was an enjoyable push, I ended up spending more time on learning to do database admin installing MySQL than intended. Gained valuable experience cleaning the data and finding the best ways to write & execute SQL queries. Tableau was interesting to use and there is probably a lot more to get into with this and data visualisation in general.
 
 Start, dataset: https://ourworldindata.org/covid-deaths  
 End, Tableau dashboard: https://public.tableau.com/views/CovidDataProject_16531289748970/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link   
